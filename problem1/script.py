@@ -7,12 +7,12 @@ def clean_lst(lst):
   return clean_lst
 
 # converts a dictionary to a string of duplicates
-def dict_to_list(dict):
-  lst = []
+def dict_to_str(dict):
+  s = ''
   for key in dict:
     for _ in range(0, dict[key]):
-      lst.append(key)
-  return ''.join(lst)
+      s += key
+  return s
 
 # sorts the either lowercase or upercase or num at a time
 def sort_alpha_num(input):
@@ -28,7 +28,7 @@ def sort_alpha_num(input):
 
   # list of duplicates
   for dic in lst_dict:
-    sorted_lst.append(dict_to_list(dic))
+    sorted_lst.append(dict_to_str(dic))
   
   return ''.join(sorted_lst)
 
