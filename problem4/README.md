@@ -109,7 +109,7 @@ clu hlt io
 
 #### Explanation 2
 
-  *L = 8, square root of 8***  is between *2* and *3*.
+  **L = 8, square root of 8**  is between *2* and *3*.
 
   Rewritten with *3* columns and *3* rows(**2 * 3 = 6 < 8** so we have to use **3X3**):
 
