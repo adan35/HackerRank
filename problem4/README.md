@@ -87,7 +87,7 @@ fto ehg ee dd
 
 #### Explanation 1
 
-  *L = 10, square root of 10***  is between *3* and *4*.
+  **L = 10, square root of 10**  is between *3* and *4*.
 
 Rewritten with *3* rows and *4* columns:
 
